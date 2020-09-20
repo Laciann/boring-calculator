@@ -15,10 +15,23 @@ function buttonClick(value) {
     }
 
 function handleSymbol(symbol) {
-    if (symbol === 'C') {
-        buffer = '0';
-        runningTotal = 0; 
-    }
+   switch (symbol) {
+       case 'C':
+           buffer = '0';
+           runningTotal = 0;
+           break;
+   
+        case '&plus;':
+        case '&minus;':
+        case '&times;':
+        case '&divide;':
+            handleMath(symbol);
+           break;
+   }
+}
+
+function handleMath(symbol) {
+    
 }
 
 function handleNumber(numberString) {
