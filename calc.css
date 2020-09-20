@@ -55,3 +55,15 @@ body{
 .triple{
     flex-basis: 74.8%;
 }
+
+.calc-button:last-child{
+    background-color: #D98C46;
+}
+
+.calc-button:last-child:hover{
+    background-color: #344861;
+}
+
+.calc-button:last-child:active{
+    background-color: #2F1728;
+}
