@@ -14,12 +14,13 @@ body{
 .wrapper{
     width: 400px;
     background-color: #FFFFFF;
-    color: #1B2036;
-    border: 3px solid red;
+    color: #1B2036;  
 }
 
-.calc-button-row{
-    border: 3px solid blue;
+.calc-button-row{ 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 .screen{
@@ -27,4 +28,13 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     padding: 20px 5px;
+}
+
+.calc-button{
+    background-color:  #FE846C;
+    color: #FFFFFF;
+    border: none;
+    font-size: 40px;
+    height: 100px;
+    flex-basis: 24.5%;
 }
