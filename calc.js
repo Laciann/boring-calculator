@@ -10,9 +10,16 @@ function buttonClick(value) {
     } else {
         handleNumber(value);
         }
+
+        screen.innerText = buffer;
     }
 
-function handleSymbol(symbol) {}
+function handleSymbol(symbol) {
+    if (symbol === 'C') {
+        buffer = '0';
+        runningTotal = 0; 
+    }
+}
 
 function handleNumber(numberString) {
     if(buffer === "0"){
@@ -20,7 +27,6 @@ function handleNumber(numberString) {
     } else {
         buffer += numberString;
     }
-    screen.innerText = buffer;
 }
 
 
