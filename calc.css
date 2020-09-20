@@ -39,3 +39,19 @@ body{
     height: 100px;
     flex-basis: 24.5%;
 }
+
+.calc-button:hover{
+    background-color: #344861;
+}
+
+.calc-button:active{
+    background-color: #2F1728;
+}
+
+.double{
+    flex-basis: 49.7%;
+}
+
+.triple{
+    flex-basis: 74.8%;
+}
