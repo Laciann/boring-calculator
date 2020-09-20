@@ -67,3 +67,13 @@ body{
 .calc-button:last-child:active{
     background-color: #2F1728;
 }
+
+button:focus{
+    outline: none;
+    background-color: #2F1728;
+}
+
+.calc-button:last-child:focus{
+    outline: none;
+    background-color: #2F1728;
+}
